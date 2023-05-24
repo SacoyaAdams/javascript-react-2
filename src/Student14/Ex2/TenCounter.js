@@ -20,7 +20,7 @@ export const TenCounter = () => {
   return (
     <div>TenCounter
     <button onClick={()=> handleClick()}>Push</button>
-    Counter: 09{counter}
+    Counter: {counter}
     {/* create a button with onClick */}
     </div>
   )
